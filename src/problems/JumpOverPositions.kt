@@ -1,4 +1,4 @@
-/*
+package problems/*
 * You are given a list of non-negative integers and you start at the left-most integer in this list. After that you need to perform the following step:
 
 Given that the number at the position where you are now is P you need to jump P positions to the right in the list. For example, if you are at position 6 and the number at position 6 has the value 3, you need to jump to position 6 + 3 = 9. Repeat this operation until you reach beyond the right-side border of the list.

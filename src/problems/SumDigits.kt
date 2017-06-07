@@ -1,3 +1,5 @@
+package problems
+
 class SumDigits {
 
     constructor() {

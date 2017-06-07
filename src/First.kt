@@ -1,12 +1,14 @@
+import problems.JumpGameII
+
 fun main(args: Array<String>) {
     println("Hello World")
 
-    //var jp = JumpOverPositions();
+    //var jp = problems.JumpOverPositions();
 
-    //SumDigits();
+    //problems.SumDigits();
 
 
-    var lru = LRUCache(5)
+/*    var lru = problems.LRUCache(5)
 
     lru.print()
 
@@ -18,6 +20,9 @@ fun main(args: Array<String>) {
     System.out.println("getting - - " + lru.get(0));
     lru.put(6, 6);
     System.out.println("getting - - " + lru.get(0));
-    System.out.println("getting - - " + lru.get(6));
+    System.out.println("getting - - " + lru.get(6));*/
+
+
+    JumpGameII();
 
 }

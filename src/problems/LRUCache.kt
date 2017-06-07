@@ -1,3 +1,5 @@
+package problems
+
 class LRUCache : Cache {
 
     private var cache: LinkedHashMap<Int, Int>;
